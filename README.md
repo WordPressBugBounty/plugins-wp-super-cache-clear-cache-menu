@@ -1,0 +1,1 @@
+# plugins-wp-super-cache-clear-cache-menu
