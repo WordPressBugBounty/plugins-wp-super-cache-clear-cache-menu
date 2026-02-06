@@ -3,8 +3,8 @@ Contributors: apasionados, netconsulting
 Donate link: http://apasionados.es/
 Tags: empty cache, emtpy wp super cache, cache, caching, performance, wp-cache, wp-super-cache, web performance optimization, WPO, YUI, yslow, google speed
 Requires at least: 3.0.1
-Tested up to: 6.3
-Stable tag: 2.0
+Tested up to: 6.9
+Stable tag: 2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -91,6 +91,12 @@ Of course we do. ;-)
 
 == Changelog ==
 
+= 2.4 (01FEB2026) =
+* The plugin was hardened by adding explicit capability checks, preventing direct file access, avoiding front-end loading of admin files, guarding all function declarations to prevent fatal errors, and namespacing the admin-bar menu ID to avoid collisions.
+
+= 2.3 (29JAN2026) =
+* Solved warning translation loading was triggered too early.
+
 = 2.0 (19/SEP/2019) =
 * Updated name from "WP Super Cache - Clear all cache" to "Clear All Cache for WP Super Cache" in order to comply with the WordPress plugin repository trademark guidelines.
 
@@ -118,8 +124,8 @@ Of course we do. ;-)
 
 == Upgrade Notice ==
 
-= 2.0 =
-UPDATED: Changed plugin name to "Clear All Cache for WP Super Cache"
+= 2.4 =
+UPDATED: Security fixes.
 
 == Contact ==
 
